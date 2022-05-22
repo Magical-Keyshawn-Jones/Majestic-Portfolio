@@ -1,25 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function App () {
+  const middleSpace = document.querySelector('.middleSpace')
+  console.log(middleSpace)
+  middleSpace.addEventListener('mouseenter', (event) => {
+    alert('It works!')
+  })
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <main>
+      <div className = 'appHome'>
+        <div className='topSpace'></div>
+        <div className='middleSpace'>
+          <p>Doorknob</p>
+        </div>
+        <div className='bottomSpace'></div>
+      </div>
+    </main>
+  )
 }
 
 export default App;
