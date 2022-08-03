@@ -44,5 +44,30 @@ table {
 
 main {
   height: 100vh;
-  background: linear-gradient(to right bottom, pink 30%, lightblue, purple)
+  background: linear-gradient(to right bottom, rgb(0, 195, 255), lightblue, pink)
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  /* background-color: white; */
+  padding: 1.5rem 0 1rem 0;
+  min-height: fit-content;
+  /* height: 1rem; */
+  min-width: fit-content;
+  font-size: 5rem;
+}
+
+header div {
+  background-color: pink;
+  border: inset purple 1rem;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.KeyshawnJones {
+  display: inline-block;
+  position: relative;
+  left: 30%;
+  padding-bottom: 4px;
+  margin-bottom: 1rem;
 }

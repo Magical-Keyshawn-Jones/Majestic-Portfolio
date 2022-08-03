@@ -4,8 +4,10 @@ function App () {
   return (
     <main>
       <header>
-        <p>Keyshawn Jones</p>
-        <p>Full Stack Web Developer | Software Engineer</p>
+        <div>
+          <p className='KeyshawnJones'>Keyshawn Jones</p>
+          <p>Full Stack Web Developer | Software Engineer</p>
+        </div>
       </header>
     </main>
   )
