@@ -43,7 +43,8 @@ table {
 }
 
 main {
-  height: 100vh;
+  height: 200vh;
+  min-height: fit-content;
   padding: 0 3rem;
   background: linear-gradient(to right bottom, rgb(0, 195, 255), lightblue, pink)
 }
@@ -59,7 +60,7 @@ header {
 }
 
 header div {
-  background-color: pink;
+  background-color: rgb(255, 224, 229);
   border: inset purple 1rem;
   padding: 0 1rem 1rem 1rem;
 }
@@ -82,21 +83,20 @@ section img {
 }
 
 .profilePic {
-  height: auto;
+  height: 46vh;
   width: 45vh;
 }
 
 .technicalSkills {
   background-color: lightblue;
-  /* color: white; */
+  /* background-color: rgb(255, 224, 229); */
   padding: 0 2rem;
   width: 100%;
 }
 
 .technicalSkills h1 {
   text-align: center;
-  /* background-color: white; */
-  border-bottom: dotted 1rem white;
+  border-bottom: dotted 1rem black;
   font-size: 4rem;
   margin-bottom: 2rem;
   padding-top: .5rem;
@@ -113,4 +113,20 @@ section img {
 
 .lineSpace {
   margin-bottom: 5rem;
+}
+
+aside {
+  background-color: rgb(225, 233, 255);
+  /* background-color: white; */
+  min-height: fit-content;
+  padding-bottom: 2rem;
+}
+
+aside h1 {
+  text-align: center;
+  font-size: 5rem;
+}
+
+aside p {
+  font-size: 1.7rem;
 }
